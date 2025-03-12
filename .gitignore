@@ -1,0 +1,11 @@
+# Ignore SQLite database files
+database/*.db
+database/*.db-wal
+database/*.db-shm
+
+# Ignore compiled and temporary files
+*.log
+*.tmp
+
+# Ignore Deno dependencies (optional, since Deno caches externally)
+deno.lock
